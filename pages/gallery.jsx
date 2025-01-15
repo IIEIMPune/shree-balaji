@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import SEO from "@/components/SEO";
 const Gallery = () => {
   const images = [
     { src: "/images/JCB.jpg", title: "JCB", description: " Providing multifunctional capabilities, such as material handling with its loader bucket and backhoe digging capabilities, makes this machine perfect for diverse construction needs." },
@@ -23,23 +24,30 @@ const Gallery = () => {
     { src: "/images/welding-machine.jpeg", title: "Wlding Machine", description: "Used to join metal components together and is widely utilized for structural steelwork repairs as well as various repair jobs in construction." },
     { src: "/images/wheel-loaders.jpg", title: "Wheel Loaders", description: "Great for moving materials such as soil, gravel or debris efficiently for effective material management." },
     { src: "/images/asphalt-paver.jpg", title: "Asphalt Paver", description: "Used specifically in road building projects to evenly spread asphalt out over roadway surfaces for improved durability and a smooth driving experience for vehicles." },
-
     { src: "/images/soil-stabilizer.jpg", title: "Soil Stabilizer", description: "Engineered to strengthen and stabilize weak soil, this machine plays a pivotal role in providing safe construction foundations." },
     { src: "/images/dump-trucks.jpg", title: "Dump Truck", description: "With its ability to haul loose materials like soil or gravel quickly and effectively - such a truck plays a pivotal part in transport." },
     { src: "/images/trencher.jpg", title: "Trencher", description: "Ideal for digging narrow trenches used to lay utility lines such as water pipes, electrical cables or sewerage networks." }
   ];
   return (
-    <div data-aos="fade-up" className="bg-sky-50 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 ">
-      {images.map((image, i) => (
-        <div key={i} className="bg-sky-50 shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-          <Image src={image.src} alt={image.title} width={1000} height={1000} className="w-full h-80 md:h-96 object-cover" />
-          <div className="p-5">
-            <h3 className="text-lg font-bold text-customBlue mb-2">{image.title}</h3>
-            <p className="text-sm text-gray-800">{image.description}</p>
+    <>
+      <SEO
+        title="Shree Balaji Exim"
+        description="Welcome to my website, this is dummy SEO."
+        keywords="keyword1, keyword2"
+        url='https://example.com'
+      />
+      <div data-aos="fade-up" className="bg-sky-50 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 ">
+        {images.map((image, i) => (
+          <div key={i} className="bg-sky-50 shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+            <Image src={image.src} alt={image.title} width={1000} height={1000} className="w-full h-80 md:h-96 object-cover" />
+            <div className="p-5">
+              <h3 className="text-lg font-bold text-customBlue mb-2">{image.title}</h3>
+              <p className="text-sm text-gray-800">{image.description}</p>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </>
   );
 };
 export default Gallery;

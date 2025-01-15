@@ -1,10 +1,19 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import SEO from "./SEO";
+
 
 function Navbar() {
     const router = useRouter();
     return (
+       <>
+       <SEO 
+        title="Shree Balaji Exim"
+        description="Welcome to my website, this is dummy SEO."
+        keywords="keyword1, keyword2"
+        url='https://example.com'
+        />
         <header className="bg-sky-50 text-gray-600 body-font">
             <div
                 data-aos="fade-up"
@@ -70,6 +79,7 @@ function Navbar() {
                 </Link>
             </div>
         </header>
+        </>
     );
 }
 export default Navbar;
