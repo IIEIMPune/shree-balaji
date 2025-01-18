@@ -3,17 +3,18 @@ import SEO from "@/components/SEO";
 export default function AboutUsSection() {
   return (
     <>
-      <SEO
-        title="Shree Balaji Exim"
-        description="Welcome to my website, this is dummy SEO."
-        keywords="keyword1, keyword2"
-        url='https://example.com'
-      />
+    <SEO
+            title="Shree Balaji Exim"
+            keywords="leader, exports and imports, imports - exports, international trades, international trade, international markets, economic growth,
+            the economic growth heavy machine construction, cross-border, heavy machine for construction, heavy machines for construction, heavy construction equipment 
+            mechanic, heavy construction equipment types, types of heavy construction equipment, construction machinery, heavy construction machinery,
+            import export businesses, export-import, import exports "
+          />
       <section className="bg-sky-50 py-16">
         <div className="max-w-4xl mx-auto px-5">
           <div data-aos="fade-up" className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h1 className="text-2xl md:text-3xl italic font-serif text-customOrange mb-4">About Us</h1>
+              <h1 className="text-2xl md:text-3xl italic font-serif text-customYellow mb-4">About Us</h1>
               <p className="text-gray-600 text-justify text-lg ">
                 Rammdas Banaginwar is a pioneering leader and a notable name in the world
                 of exports and imports.Over the last 25 years, he has gained experience in
@@ -40,7 +41,7 @@ export default function AboutUsSection() {
               />
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl italic font-serif text-customOrange mb-4">
+              <h2 className="text-2xl md:text-3xl italic font-serif text-customYellow mb-4">
                 Our Mission
               </h2>
               <p className="text-gray-600 text-lg text-justify">
@@ -57,7 +58,7 @@ export default function AboutUsSection() {
           </div>
           <div data-aos="fade-up" className="grid md:grid-cols-2 gap-8 items-center mt-16">
             <div>
-              <h2 className="text-2xl md:text-3xl text-customOrange mb-4 italic font-serif">Our Success Story</h2>
+              <h2 className="text-2xl md:text-3xl text-customYellow mb-4 italic font-serif">Our Success Story</h2>
               <p className="text-gray-600 text-justify text-lg">
                 Our journey of success began in 2001 with the establishment of our operations in Sri Lanka and the UAE,
                 followed by our expansion into China in 2005. Over the years, our unwavering dedication and commitment

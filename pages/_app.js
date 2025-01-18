@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
@@ -50,6 +51,10 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+     <Head>
+      <title>Shree Balaji Exim House</title>
+      <link rel="icon" href="/logo.jpg" />
+    </Head>
 
       <LoadingBar
         color="#0195a1"

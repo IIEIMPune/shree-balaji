@@ -29,13 +29,14 @@ const FAQ = () => {
     <>
       <SEO
         title="Shree Balaji Exim"
-        description="Welcome to my website, this is dummy SEO."
-        keywords="keyword1, keyword2"
-        url='https://example.com'
+        keywords="Shree Balaji Exim, Shree Balaji export and import, heavy machine construction, heavy machine for construction, heavy machines for construction, heavy construction equipment 
+        mechanic, heavy construction equipment types, types of heavy construction equipment, construction machinery, heavy construction machinery,
+        import export businesses, export-import, construction machinery, import exports "
+        description= "Shree Balaji Exim Group is founded by Shri N. G. Banaginwar. After 1990, this business is handled by CEO Rammdas Banaginwar and he established Export Import Business in year 2001."
       />
       <div data-aos="fade-up" className="w-full py-12 bg-sky-50">
         <div className="text-center mb-8">
-          <h1 className="text-2xl text-customOrange md:text-3xl mb-2 font-serif tracking-wide">
+          <h1 className="text-2xl text-customYellow md:text-3xl mb-2 font-serif tracking-wide">
             Frequently Asked Questions
           </h1>
           <h2 className="text-md md:text-lg font-medium text-gray-800 font-serif tracking-widest">

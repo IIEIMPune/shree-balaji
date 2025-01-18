@@ -21,7 +21,7 @@ const Gallery = () => {
     { src: "/images/skid_steer_loader.webp", title: "Skid Steer Loader", description: "An adaptable compact machine equipped with various attachments to perform tasks such as digging, loading, and material handling." },
     { src: "/images/tunnel-boring-machine.jpg", title: "Tunnel Boring Machine", description: "Used for digging tunnels efficiently for infrastructure projects like subways and underground passages, these large machines make short work of tunneling tasks." },
     { src: "/images/articulated-dump-truck.avif", title: "Articulated Dump Truck", description: "Engineered specifically to handle off-road hauling of large loads efficiently across uneven terrains and remote sites, this truck makes short work of hauling large volumes." },
-    { src: "/images/welding-machine.jpeg", title: "Wlding Machine", description: "Used to join metal components together and is widely utilized for structural steelwork repairs as well as various repair jobs in construction." },
+    { src: "/images/welding-machine.jpeg", title: "Welding Machine", description: "Used to join metal components together and is widely utilized for structural steelwork repairs as well as various repair jobs in construction." },
     { src: "/images/wheel-loaders.jpg", title: "Wheel Loaders", description: "Great for moving materials such as soil, gravel or debris efficiently for effective material management." },
     { src: "/images/asphalt-paver.jpg", title: "Asphalt Paver", description: "Used specifically in road building projects to evenly spread asphalt out over roadway surfaces for improved durability and a smooth driving experience for vehicles." },
     { src: "/images/soil-stabilizer.jpg", title: "Soil Stabilizer", description: "Engineered to strengthen and stabilize weak soil, this machine plays a pivotal role in providing safe construction foundations." },
@@ -32,9 +32,9 @@ const Gallery = () => {
     <>
       <SEO
         title="Shree Balaji Exim"
-        description="Welcome to my website, this is dummy SEO."
-        keywords="keyword1, keyword2"
-        url='https://example.com'
+        keywords="JCB, concrete pump, bulldozer, bulldozer tractor, jcb bulldozer, road compactor, compactor, concrete mixer, crane, crawler crane
+                  excavator, fork lift, generator, motor grader, pile driver, road roller, shot create machine, telehandler, skid steer loader,
+                  tunnel boring machine, articulated dump truck, welding machine, wheel loaders, asphalt paver, soil stabilizer, dump truck, trencher"
       />
       <div data-aos="fade-up" className="bg-sky-50 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 ">
         {images.map((image, i) => (

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 import { SiGmail } from "react-icons/si";
-import SEO from '@/components/SEO';
+import { CiWifiOff } from "react-icons/ci";
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -40,7 +40,8 @@ const ContactUs = () => {
         }, 3000)
       } else {
         setFormData({ name: "", email: "", phone: "", message: "" });
-        setStatus("Please Check Your Internet Connection!")
+        setStatus("Please Check your Internet Connection...🛜")
+        
         setTimeout(() => {
           setStatus("");
         }, 3000)
@@ -51,12 +52,6 @@ const ContactUs = () => {
   }
   return (
     <>
-      <SEO
-        title="Shree Balaji Exim"
-        description="Welcome to my website, this is dummy SEO."
-        keywords="keyword1, keyword2"
-        url='https://example.com'
-      />
       <div className="bg-sky-50 min-h-screen flex flex-col items-center justify-center p-4">
         <div className="container mx-auto grid md:grid-cols-2 gap-6 overflow-hidden bg-sky-50">
           <div className="p-8 flex flex-col bg-sky-50 justify-center">
@@ -142,8 +137,6 @@ const ContactUs = () => {
                 </p>
               </div>
             )}
-
-
           </div>
           <div className="p-8 bg-sky-50 flex flex-col justify-center items-center space-y-6">
             <div className="flex flex-col items-center">

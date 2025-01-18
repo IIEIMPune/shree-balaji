@@ -16,13 +16,14 @@ export default function Home() {
     <>
       <SEO
         title="Shree Balaji Exim"
-        description="Welcome to my website, this is dummy SEO."
-        keywords="keyword1, keyword2"
-        url='https://example.com'
+        keywords="Shree Balaji Exim, Shree Balaji export and import, heavy machine construction, heavy machine for construction, heavy machines for construction, heavy construction equipment 
+        mechanic, heavy construction equipment types, types of heavy construction equipment, construction machinery, heavy construction machinery,
+        import export businesses, export-import, construction machinery, import exports"
+        description= "Shree Balaji Exim Group is founded by Shri N. G. Banaginwar. After 1990, this business is handled by CEO Rammdas Banaginwar and he established Export Import Business in year 2001."
       />
       <div data-aos="fade-up" className="min-h-screen bg-sky-50 flex items-center justify-center">
         <div className="container mx-auto p-4">
-          <h1 className="text-2xl md:text-3xl text-customOrange  font-serif text-center italic mb-6">Our Products</h1>
+          <h1 className="text-2xl md:text-3xl text-customYellow  font-serif text-center italic mb-6">Our Products</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-4">
             {products.map((product) => (
               <div
@@ -32,6 +33,7 @@ export default function Home() {
                   src={product.image}
                   alt={product.name}
                   className="w-full h-96 object-cover"
+                  width={500} heigh={500}
                 />
                 <div className="p-4">
                   <h2 className="text-xl text-customBlue text-center font-semibold">{product.name}</h2>
@@ -41,7 +43,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center mt-6">
             <Link href={'/gallery'}
-              className="text-customBlue  hover:text-teal-600 font-semibold text-lg">
+              className="text-customBlue hover:bg-customBlue hover:text-white transition duration-500 ease-out font-semibold text-lg p-2 border border-customBlue bg-transparent rounded-lg">
               View More
             </Link>
           </div>
