@@ -8,8 +8,8 @@ export default function Home() {
     <>
       <HomePage />
       <Aboutus />
-      <WhyUs />
       <Ourproducts />
+      <WhyUs />
       <FAQ />
     </>
   );

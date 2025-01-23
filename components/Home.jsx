@@ -12,9 +12,9 @@ function HomePage() {
             description= "Shree Balaji Exim Group is founded by Shri N. G. Banaginwar. After 1990, this business is handled by CEO Rammdas Banaginwar and he established Export Import Business in year 2001."
             />
             <div data-aos="fade-up">
-                <section className="relative w-full h-[70vh] md:h-[95vh]">
+                <section className="relative w-full h-[40vh] md:h-[95vh]">
                     <Image
-                        src="/images/bulldozer-cropped.jpg"
+                        src="/images/bulldozer.jpg"
                         alt="Background"
                         layout="fill"
                         objectFit="cover"
@@ -27,3 +27,8 @@ function HomePage() {
 }
 
 export default HomePage;
+
+
+
+
+
