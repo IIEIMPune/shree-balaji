@@ -9,7 +9,7 @@ export default function WhyUs() {
         keywords="Shree Balaji Exim, Shree Balaji export and import, heavy machine construction, heavy machine for construction, heavy machines for construction, heavy construction equipment 
         mechanic, heavy construction equipment types, types of heavy construction equipment, construction machinery, heavy construction machinery,
         import export businesses, export-import, construction machinery, import exports"
-        description= "Shree Balaji Exim Group is founded by Shri N. G. Banaginwar. After 1990, this business is handled by CEO Rammdas Banaginwar and he established Export Import Business in year 2001."
+        description="Shree Balaji Exim Group is founded by Shri N. G. Banaginwar. After 1990, this business is handled by CEO Rammdas Banaginwar and he established Export Import Business in year 2001."
       />
       <div data-aos="fade-up" className="bg-sky-50 py-12">
         <div className="mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between">
@@ -24,7 +24,7 @@ export default function WhyUs() {
               project demands worldwide.
             </p>
           </div>
-          <div className="md:w-1/2 grid md:px-10 grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="md:w-1/2 grid  grid-cols-1 gap-6 md:px-10">
             <div className="flex items-center bg-white p-6 rounded-lg shadow-md">
               <FaAward className="text-customBlue text-3xl mr-4" />
               <div>
@@ -62,6 +62,7 @@ export default function WhyUs() {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </>
