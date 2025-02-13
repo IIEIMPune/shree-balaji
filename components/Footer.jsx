@@ -22,7 +22,7 @@ export default function Footer() {
       >
         <div className="absolute inset-0 bg-black bg-opacity-70"></div>
         <div data-aos="fade-up" className="relative z-10 text-white py-10 px-5">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-6 text-center md:text-left">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-6 text-center md:text-left">
 
             <div className="md:col-span-2">
               <Link href='/'>
