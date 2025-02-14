@@ -26,7 +26,7 @@ export default function AboutUsSection() {
             </div>
             <div>
               <img
-                src="/ramdas-sir.png"
+                src="/ramdas-sir-1.png"
                 alt="About Us"
                 className="rounded-lg  object-cover"
               />
