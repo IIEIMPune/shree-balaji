@@ -3,13 +3,13 @@ import SEO from "@/components/SEO";
 export default function AboutUsSection() {
   return (
     <>
-    <SEO
-            title="Shree Balaji Exim"
-            keywords="leader, exports and imports, imports - exports, international trades, international trade, international markets, economic growth,
+      <SEO
+        title="Shree Balaji Exim"
+        keywords="leader, exports and imports, imports - exports, international trades, international trade, international markets, economic growth,
             the economic growth heavy machine construction, cross-border, heavy machine for construction, heavy machines for construction, heavy construction equipment 
             mechanic, heavy construction equipment types, types of heavy construction equipment, construction machinery, heavy construction machinery,
             import export businesses, export-import, import exports "
-          />
+      />
       <section className="bg-sky-50 py-16">
         <div className="max-w-4xl mx-auto px-5">
           <div data-aos="fade-up" className="grid md:grid-cols-2 gap-8 items-center">
@@ -26,9 +26,9 @@ export default function AboutUsSection() {
             </div>
             <div>
               <img
-                src="/ramdas-sir-1.png"
+                src="/ramdas-sir-image.png"
                 alt="About Us"
-                className="rounded-lg  object-cover"
+                className="rounded-lg h-96 object-cover"
               />
             </div>
           </div>
